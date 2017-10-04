@@ -1,0 +1,12 @@
+ot1h: HELLO WORLD IS FUN
+otoh: it tells you nothing
+
+so
+
+>> navigate (cd <path>) to your code directory
+
+>> git init 
+or 
+>> git clone <repository URL>
+
+now git is made in that folder/directory
