@@ -3,10 +3,46 @@ otoh: it tells you nothing
 
 so
 
+//-- INITIALIZING A REPO ------------------------------
 >> navigate (cd <path>) to your code directory
-
 >> git init 
 or 
 >> git clone <repository URL>
-
 now git is made in that folder/directory
+
+adding git to browser github
+-- github tells you how if you make a new repository from there
+
+//-- STAGING FILES & COMMITTING------------------------
+>> git add <file name>
+then
+>> git commit
+
+see unstaged changes
+>> git diff
+
+see staged changes
+>> git diff --cached README.md
+
+git log --oneline
+git help log --> for more options
+
+//-- BRANCHES -----------------------------------------
+git checkout -b develop
+-- makes a branch 'develop' & switches to it
+
+git checkout master
+-- switches to master branch
+
+git merge develop
+-- when on master, merges develop w/ master
+
+//-- PUSH ---------------------------------------------
+
+git push -u origin master
+
+//-- MISCELLANEOUS -------------------------------------
+
+setting Sublime Text as the default commit editor: 
+https://gist.github.com/S3ak/10427958
+
