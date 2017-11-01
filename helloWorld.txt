@@ -3,6 +3,9 @@ otoh: it tells you nothing
 
 so
 
+changing drives is E: not cd E:\
+- cd = change directory
+
 //-- INITIALIZING A REPO ------------------------------
 >> navigate (cd <path>) to your code directory
 >> git init 
