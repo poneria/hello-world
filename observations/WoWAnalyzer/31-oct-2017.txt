@@ -1,0 +1,51 @@
+To test things:
+cd to WoWAnalyzer folder
+npm start
+
+Default spec folder setup:
+using https://www.warcraftlogs.com/reports/pPYLA9kCf4tgNvh3#fight=25&type=damage-done as a log example (found via clicking though WCL)
+
+I left maintainer & spec status alone, so it shows Zerotorescue/Holy Paladin stuff.
+
+//-----
+Statistic blocks:
+Downtime 	| NLC		| Concordance
+						| Distance moved + time spent moving
+
+'Downtime' & 'NLC' take up more vertical space, so due to what I guess is a float style, 'distance moved' is actually right below 'Concordance' in the 3rd column, rather than in a "4th" spot below 'Downtime.' So adjusting statistic block order might require rethinking box heights so things line up.
+
+Heights: NLC >= Downtime > Distance moved > Concordance
+
+/-----
+Items tracker is there
+
+shows the Tarnished Sentinel Medallion
+
+/-----
+Tab modules are:
+
+Suggestions | Talents | Cooldowns | Cast efficiency | Mana | Development | Events | Status
+
+Suggestions = the rotation/improvement suggestions
+- again, it has a ton of Holy Paladin suggestions
+- again, not sure if the code for this is elsewhere
+
+Talents = shows the talents the player had during the fight
+- just shows the talents
+- wonder if can incorporate damage done calculations here instead of using a statistic block
+- alternatively, wonder if can delete this tab & make a talent statistic block, a la the item tracker, with just icons maybe
+
+Cooldowns = presumably cooldowns go here, but the tab is empty/nothing
+
+Cast efficiency = cast efficiency bars
+- though it has Holy Paladin spells? despite having deleted those modules per the instructions
+- must be designated elsewhere -- perhaps Core
+
+Mana = two graphs: mana pool & mana usage
+
+Development = Development Tools
+- generates Javascript for abilities, buffs, items, etc.
+
+Events straight up hangs/breaks
+
+Status looks like WCL API stuff
