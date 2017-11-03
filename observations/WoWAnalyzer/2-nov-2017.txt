@@ -1,0 +1,29 @@
+Rebuilt/looked over standard Module files to understand how they worked.
+
+-- AlwaysBeCasting.js
+
+The Downtime stat box. 
+
+I think the Warlock Affliction one isn't accounting for Drain Soul channel time properly. However, when I looked at WCL, it shows Drain Soul ticks as single cast instances, without a begin cast or and end cast, so it'll be hard to figure out what constitutes a Drain Soul channel. I think the Downtime suggestion threshold takes this into account, though.
+
+-- CastEfficiency.js
+
+This is a tab, not a stat box.
+
+I want to know if there's a way to get utility items to not show if they're 0 casts. That is, seeing all the Warlock summon pets is silly when only one is used (presumable the permaDoomguard.)
+
+-- CooldownTracker.js
+
+This is a tab, not a stat box.
+
+It was cool to see how the casts during the cooldown are laid out.
+
+-- AgonyUptime.js
+
+This is a stat box.
+
+Shows a simple debuff uptime. I want to look at the other classes/specs to see all examples of how to do a de/buff uptime and maybe write documention for it?
+
+-----------------------
+
+I also see that in CONTRIBUTING.SPEC.md, there's space for the AlwaysBeCasting, Cast Efficiency, and total damage/healing/damage taken stats. Maybe I should work on those first.
