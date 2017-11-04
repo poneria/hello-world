@@ -91,3 +91,10 @@ Push/upload 3-nov-2017.txt to master branch so there's a 3-nov-2017 observation 
 //------------------------
 // COMMAND LINE INTERFACE
 //------------------------
+
+I didn't actually get the command line practice done on the 3rd due to watching some 
+BlizzCon hype, but I need a duplicate file, so here it is.
+
+Thinking about resetting the forked project & trying again after this.
+
+I totally saved this in the wong spot, though.
