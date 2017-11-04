@@ -1,0 +1,24 @@
+4-nov-2017.txt
+
+second-branch: 
+- 4 commits ahead, 2 commits behind master
+- README.md: old
+- 3-nov-2017.txt: 2nd
+
+master: 
+- Up to date.
+- README.md: new
+- 3-nov-2017.txt: 1st
+
+This actually works out well as an example, because my local is fucked up again, 
+so I need to figure out how to resolve that, probably by a lot of manual updates. 
+
+Note though: my local changes when I switch branches from the way out-of-date 
+second-branch to the up-to-date master branch.
+
+on master:
+git merge second-branch
+replaced 3 nov 2017 with the second-branch one, & the README.md stayed updated. Automerge?
+
+OK I got it resolved. Basically --> do the PR on the website. Still don't feel like I 
+got it, though. More practice, maybe on the actual fork so it won't automerge.
