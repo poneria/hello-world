@@ -1,0 +1,43 @@
+Rebuilt/looked over standard Module files to understand how they worked.
+
+-- AlwaysBeCasting.js = The Downtime stat box. 
+
+I think the Warlock Affliction one isn't accounting for Drain Soul channel time properly. However, when I looked at WCL, it shows Drain Soul ticks as single cast instances, without a begin cast or and end cast, so it'll be hard to figure out what constitutes a Drain Soul channel. I think the Downtime suggestion threshold takes this into account, though.
+
+-- CastEfficiency.js = This is a tab, not a stat box.
+
+I want to know if there's a way to get utility items to not show if they're 0 casts. That is, seeing all the Warlock summon pets is silly when only one is used (presumable the permaDoomguard.)
+
+-- CooldownTracker.js = This is a tab, not a stat box.
+
+It was cool to see how the casts during the cooldown are laid out.
+
+-- AgonyUptime.js = This is a stat box.
+
+Shows a simple debuff uptime. I want to look at the other classes/specs to see all examples of how to do a de/buff uptime and maybe write documention for it?
+
+-----------------------
+
+I also see that in CONTRIBUTING.SPEC.md, there's space for the AlwaysBeCasting, Cast Efficiency, and total damage/healing/damage taken stats. Maybe I should work on those first.
+
+Looked at CastEfficiency.js across all class-specs and made doumentation for it 
+in CONTRIBUTING.SPEC.md. 
+
+Attempted to pull request into my own fork, but messed something up between my 
+local copy and the repository. My master branch is now up to date with 
+WoWAnalyzer's master date, but my documentation branch is ahead in the 
+CONTRIBUTING.SPEC.md file and behind in everything else. Going to practice that 
+merging on my hello-word repository.
+
+Unfortunately I can't test this until I get home because I haven't figured out
+how to get git command line on a USB drive so I can use it on public computers.
+
+But setup:
+
+- [ ] hello-world/master up to date with commit#61c6844
+- [ ] add new-branch
+- [ ] push different 2-nov-2017.txt to new-branch
+- [ ] on hello-master, update README.md
+- [ ] practice merging updated master on new-branch
+- [ ] practice pull request from new-branch to master
+

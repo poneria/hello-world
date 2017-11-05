@@ -40,9 +40,31 @@ git checkout master
 git merge develop
 -- when on master, merges develop w/ master
 
+git branch -d <name>
+-- deletes a local branch
+
 //-- PUSH ---------------------------------------------
 
 git push -u origin master
+
+//-- PULL REQUEST -------------------------------------
+
+(do it on GitHub)
+
+//- UPDATING THE FORK MASTER BRANCH --------------------
+
+https://help.github.com/articles/configuring-a-remote-for-a-fork/
+git remote -v
+git remote add upstream (original repo)
+git remote -v
+
+https://help.github.com/articles/syncing-a-fork/
+git fetch upstream
+git checkout master
+git merge upstream/master
+-- Git should fast-forward, assuming no unique commits in local)
+git push origin master 
+-- updates your fork on GitHub)
 
 //-- MISCELLANEOUS -------------------------------------
 
