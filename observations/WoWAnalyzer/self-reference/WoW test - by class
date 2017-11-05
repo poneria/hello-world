@@ -1,0 +1,55 @@
+//---------------
+// BY CLASS
+//---------------
+
+- [ ] DeathKnight/Blood
+- [ ] DeathKnight/Frost
+- [ ] DeathKnight/Unholy
+-----------
+- [ ] DemonHunter/Havoc
+- [ ] DemonHunter/Vengeance
+-----------
+- [ ] Druid/Balance
+		>> recordCastTime
+- [ ] Druid/Feral
+- [ ] Druid/Guardian
+- [ ] Druid/Restoration
+-----------
+- [ ] Hunter/BeastMastery
+- [ ] Hunter/Marksmanship
+-----------
+- [ ] Mage/Fire
+- [ ] Mage/Frost
+-----------
+- [ ] Monk/Brewmaster
+- [ ] Monk/Mistweaver
+- [ ] Monk/Windwalker
+-----------
+- [ ] Paladin/Holy
+- [ ] Paladin/Retribution
+-----------
+- [ ] Priest/Discipline
+- [ ] Priest/Holy
+- [ ] Priest/Shadow
+-----------
+- [ ] Rogue/Subtlety
+-----------
+- [ ] Shaman/Elemental
+- [ ] Shaman/Enhancement
+- [ ] Shaman/Restoration
+-----------
+- [ ] Warlock/Affliction
+- [ ] Warlock/Demonology
+- [ ] Warlock/Destruction
+-----------
+- [ ] Warrior/Arms
+- [ ] Warrior/Protection
+
+//----------------
+don't exist yet/not supported:
+- [-] Hunter/Survival
+- [-] Mage/Arcane
+- [-] Paladin/Protection
+- [-] Rogue/Assassination
+- [-] Rogue/Outlaw
+- [-] Warrior/Fury

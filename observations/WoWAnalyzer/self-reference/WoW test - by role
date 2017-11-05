@@ -1,0 +1,52 @@
+//---------------
+// BY ROLE
+//---------------
+
+-- healers -------------
+- [ ] Druid/Restoration
+- [ ] Monk/Mistweaver
+- [ ] Paladin/Holy
+- [ ] Priest/Discipline
+- [ ] Priest/Holy
+- [ ] Shaman/Restoration
+
+-- tanks ---------------
+- [ ] DeathKnight/Blood
+- [ ] DemonHunter/Vengeance
+- [ ] Druid/Guardian
+- [ ] Monk/Brewmaster
+- [ ] Warrior/Protection
+
+-- DPS/melee -----------
+- [ ] DeathKnight/Frost
+- [ ] DeathKnight/Unholy
+- [ ] DemonHunter/Havoc
+- [ ] Druid/Feral
+- [ ] Monk/Windwalker
+- [ ] Paladin/Retribution
+- [ ] Rogue/Subtlety
+- [ ] Shaman/Enhancement
+- [ ] Warrior/Arms
+
+-- DPS/casters ----------
+- [ ] Druid/Balance
+- [ ] Mage/Fire
+- [ ] Mage/Frost
+- [ ] Priest/Shadow
+- [ ] Shaman/Elemental
+- [ ] Warlock/Affliction
+- [ ] Warlock/Demonology
+- [ ] Warlock/Destruction
+
+-- DPS/ranged -----------
+- [ ] Hunter/BeastMastery
+- [ ] Hunter/Marksmanship
+
+//----------------
+don't exist yet/not supported:
+- [-] Hunter/Survival
+- [-] Mage/Arcane
+- [-] Paladin/Protection
+- [-] Rogue/Assassination
+- [-] Rogue/Outlaw
+- [-] Warrior/Fury
