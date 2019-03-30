@@ -1,0 +1,3 @@
+Trying out Sublime Merge, since I already use Sublime Text. It would be nice to have this on my USB stick instead of having to be in the GitHub web interface all the time (so I can get used t text-based git better).
+
+So far, looks like I do the work in Sublime Text or the file folder structures, and the files show up in Sublime Merge as I work. Looks pretty snazzy so far.
