@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Megan O'Neill" />
+	<title> Demo: Parallax Scrolling with CSS | No John Trumbull</title>
+
+	<!--
+		Using the verse lyrics to "No John Trumbull (Intro)" as heard from the Hamilton Mixtape, written by Lin-Manuel Miranda, produced by Questlove & Black Thought (aka the Roots)
+
+		https://en.wikipedia.org/wiki/The_Hamilton_Mixtape
+		https://genius.com/The-roots-no-john-trumbull-intro-lyrics
+	-->
+</head>
+
+<body>
+
+	<!-- using W3Schools.com's example of Parallax Scrolling -->
+	 <style>
+		.parallax {
+		  /* The image used */
+		  background-image: url("http://placekitten.com/1000/800");
+
+		  /* Set a specific height */
+		  height: 100px;
+
+		  /* Create the parallax scrolling effect */
+		  background-attachment: fixed;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		}
+
+		.scroll-text {
+			border: 2px solid #000000;
+			max-width: 50%;
+			width: 400px;
+		}
+	</style>
+
+	<p class="scroll-text">(line 1) - You ever seen a painting by John Trumbull?</p>
+		<div class="parallax"></div>
+	<p class="scroll-text">(line 2) - Founding fathers in a line, looking all humble</p>
+		<div class="parallax"></div>
+	<p class="scroll-text">(line 3) - Patiently waiting to sign a declaration and start a nation</p>
+		<div class="parallax"></div>
+	<p class="scroll-text">(line 4) - No sign of disagreement, not one grumble</p>
+		<div class="parallax"></div>
+	<p class="scroll-text">(line 5) - The reality is messier and richer, kids</p>
+		<div class="parallax"></div>
+	<p class="scroll-text">(line 6) - The reality is not a pretty picture, kids</p>
+		<div class="parallax"></div>
+	<p class="scroll-text">(line 7) - Every cabinet meeting is like a full on rumble</p>
+		<div class="parallax"></div>
+	<p class="scroll-text">(line 8) - What you're about to witness is no John Trumbull</p>
+
+	<div style="height:1000px;background-color:#eeeeee;font-size:36px">
+	Scroll Up and Down this page to see the parallax scrolling effect.
+	This div is just here to enable scrolling.
+	</div>
+
+</body>
+</html>
