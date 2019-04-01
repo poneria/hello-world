@@ -22,18 +22,65 @@
 	-->
 
 	<style>
-		$top-offset: 0;
-		
 		body {
 			background-color: ghostwhite;
-			margin: $top-offset auto;
+			margin: 0 auto;
+		}
+
+		h1 {
+			text-align: center;
+			margin-bottom: 3rem;
+		}
+
+		section {
+			margin: 0;
+			padding: 0;
+		}
+
+		article {
+			padding: 0 1rem 30vh;
+			margin: 0 auto;
+			max-width: 40rem;
+		}
+
+		article p {
+			background-color: rgba(255, 255, 255, 0.75);
+			font-family: Georgia;
+			font-size: 1.1rem;
+			line-height: 1.8;
+			margin: 0;
+			padding: 1rem;
+		}
+
+		article p:not(:last-of-type) {
+			margin-bottom: 30vh;
+		}
+
+		img {
+			display: block;
+				-o-object-fit: cover;
+				object-fit: cover;
+			width: 100%;
+			height: 100%;
 		}
 
 		figure {
+			align-items: center;
+			align-self: flex-start;
 			display: flex;
 			height: 100vh;
 			margin: 0;
 			width: 100%;
+			justify-content: center;
+			top: 0;
+			z-index: -1;
+		}
+
+		@media screen and (min-width: 35rem) {
+			figure {
+				position: -webkit-sticky;
+				position: sticky;
+			}
 		}
 	</style>
 </head>
@@ -41,11 +88,11 @@
 <body>
 	<section>
 		<figure>
-			<img src="http://placekitten.com/960/720" alt="Placeholder kitten image">
+			<img src="http://placekitten.com/960/500" alt="Placeholder kitten image">
 		</figure>
 		<article>
 			<p>(line 1) - You ever seen a painting by John Trumbull?</p>
-			<p>line 2) - Founding fathers in a line, looking all humble</p>
+			<p>(line 2) - Founding fathers in a line, looking all humble</p>
 			<p>(line 3) - Patiently waiting to sign a declaration and start a nation</p>
 			<p>(line 4) - No sign of disagreement, not one grumble</p>
 		</article>
@@ -53,11 +100,11 @@
 
 	<section>
 		<figure>
-			<img src="http://placekitten.com/960/720" alt="Placeholder kitten image">
+			<img src="http://placekitten.com/960/500" alt="Placeholder kitten image">
 		</figure>
 		<article>
 			<p>(line 1) - You ever seen a painting by John Trumbull?</p>
-			<p>line 2) - Founding fathers in a line, looking all humble</p>
+			<p>(line 2) - Founding fathers in a line, looking all humble</p>
 			<p>(line 3) - Patiently waiting to sign a declaration and start a nation</p>
 			<p>(line 4) - No sign of disagreement, not one grumble</p>
 		</article>
@@ -65,11 +112,11 @@
 
 	<section>
 		<figure>
-			<img src="http://placekitten.com/960/720" alt="Placeholder kitten image">
+			<img src="http://placekitten.com/960/500" alt="Placeholder kitten image">
 		</figure>
 		<article>
 			<p>(line 1) - You ever seen a painting by John Trumbull?</p>
-			<p>line 2) - Founding fathers in a line, looking all humble</p>
+			<p>(line 2) - Founding fathers in a line, looking all humble</p>
 			<p>(line 3) - Patiently waiting to sign a declaration and start a nation</p>
 			<p>(line 4) - No sign of disagreement, not one grumble</p>
 		</article>
