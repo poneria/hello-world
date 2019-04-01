@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Megan O'Neill" />
+	<title> Demo: Parallax Scrolling with CSS | Home</title>
+</head>
+
+<body>
+
+	<!-- using W3Schools.com's example of Parallax Scrolling -->
+	 <style>
+		.parallax {
+		  /* The image used */
+		  background-image: url("http://placekitten.com/1000/800");
+
+		  /* Set a specific height */
+		  height: 500px;
+
+		  /* Create the parallax scrolling effect */
+		  background-attachment: fixed;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		}
+	</style>
+
+	<p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
+	
+	<!-- Container element -->
+	<div class="parallax"></div>
+
+	<div style="height:1000px;background-color:red;font-size:36px">
+	Scroll Up and Down this page to see the parallax scrolling effect.
+	This div is just here to enable scrolling.
+	Tip: Try to remove the background-attachment property to remove the scrolling effect.
+	</div>
+
+</body>
+</html>
