@@ -22,117 +22,99 @@
 	-->
 
 	<style>
-		body {
-			background-color: ghostwhite;
-			margin: 0 auto;
+		.container {
+			border: 1px solid blue;
+			border-width: 1px 0;
+			margin: auto;
+			width: 300px;
 		}
 
-		h1 {
-			text-align: center;
-			margin-bottom: 3rem;
-		}
-
-		section {
-			margin: 0;
-			padding: 0;
-		}
-
-		article {
-			padding: 0 1rem 30vh;
-			margin: 0 auto;
-			max-width: 40rem;
-		}
-
-		article p {
-			background-color: rgba(255, 255, 255, 0.75);
-			font-family: Georgia;
-			font-size: 1.1rem;
-			line-height: 1.8;
-			margin: 0;
-			padding: 1rem;
-		}
-
-		article p:not(:last-of-type) {
-			margin-bottom: 30vh;
-		}
-
-		img {
-			display: block;
-				-o-object-fit: cover;
-				object-fit: cover;
-			width: 100%;
-			height: 100%;
-		}
-
-		figure {
-			align-items: center;
-			align-self: flex-start;
-			display: flex;
-			height: 100vh;
-			margin: 0;
-			width: 100%;
-			justify-content: center;
+		.sticky {
+			background-color: rgba(255, 215, 0, 1);
+			padding: 6px 0px;
+			position:-webkit-sticky;
+			position:sticky;
 			top: 0;
-			z-index: -1;
+			width: 450px;
 		}
 
-		@media screen and (min-width: 35rem) {
-			figure {
-				position: -webkit-sticky;
-				position: sticky;
-			}
-		}
+		.sticky:nth-of-type(2) {  transform: translateY(30px); }
+		.sticky:nth-of-type(3) {  transform: translateY(60px); }
+		.sticky:nth-of-type(4) {  transform: translateY(90px); }
+		.sticky:nth-of-type(5) {  transform: translateY(120px); }
+		.sticky:nth-of-type(6) {  transform: translateY(150px); }
+		.sticky:nth-of-type(7) {  transform: translateY(180px); }
+		.sticky:nth-of-type(8) {  transform: translateY(210px); }
+		.sticky:nth-of-type(9) {  transform: translateY(240px); }
+		.sticky:nth-of-type(10) {  transform: translateY(270px); }
 	</style>
 </head>
 
 <body>
-	<section>
-		<figure>
-			<img src="http://placekitten.com/960/500" alt="Placeholder kitten image">
-		</figure>
-		<article>
-			<p>(line 1) - You ever seen a painting by John Trumbull?</p>
-			<p>(line 2) - Founding fathers in a line, looking all humble</p>
-			<p>(line 3) - Patiently waiting to sign a declaration and start a nation</p>
-			<p>(line 4) - No sign of disagreement, not one grumble</p>
-		</article>
-	</section>
+	<div class="container">
+		<h1>No John Trumbull</h1>
 
-	<section>
-		<figure>
-			<img src="http://placekitten.com/960/500" alt="Placeholder kitten image">
-		</figure>
-		<article>
-			<p>(line 1) - You ever seen a painting by John Trumbull?</p>
-			<p>(line 2) - Founding fathers in a line, looking all humble</p>
-			<p>(line 3) - Patiently waiting to sign a declaration and start a nation</p>
-			<p>(line 4) - No sign of disagreement, not one grumble</p>
-		</article>
-	</section>
+		<div class="sticky">
+			(line 1) - You ever seen a painting by John Trumbull?
+		</div>
 
-	<section>
-		<figure>
-			<img src="http://placekitten.com/960/500" alt="Placeholder kitten image">
-		</figure>
-		<article>
-			<p>(line 1) - You ever seen a painting by John Trumbull?</p>
-			<p>(line 2) - Founding fathers in a line, looking all humble</p>
-			<p>(line 3) - Patiently waiting to sign a declaration and start a nation</p>
-			<p>(line 4) - No sign of disagreement, not one grumble</p>
-		</article>
-	</section>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, cumque? A, est perferendis explicabo odit possimus quisquam rem ad tempore ipsa, obcaecati ex culpa similique, aliquam corporis. Quis, nostrum expedita.</p>
 
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum tellus felis, at lobortis orci sollicitudin ac. Donec lobortis sapien ac posuere faucibus. Mauris lectus neque, pretium non volutpat eget, vestibulum at magna. In sollicitudin augue nunc, non bibendum augue ornare quis.</p>
-      
-	<p>Integer accumsan interdum justo eu pretium. Aliquam maximus mi sit amet dapibus efficitur.</p>
+		<div class="sticky">
+			(line 2) - Founding fathers in a line, looking all humble
+		</div>
 
-	<p>Sed condimentum lacus sit amet turpis aliquam varius nec a lacus. In facilisis convallis ante sit amet consequat. Aenean a lorem mollis, bibendum nibh nec, maximus orci. Nulla facilisi.</p>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, cumque? A, est perferendis explicabo odit possimus quisquam rem ad tempore ipsa, obcaecati ex culpa similique, aliquam corporis. Quis, nostrum expedita.</p>
 
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum tellus felis, at lobortis orci sollicitudin ac. Donec lobortis sapien ac posuere faucibus. Mauris lectus neque, pretium non volutpat eget, vestibulum at magna. In sollicitudin augue nunc, non bibendum augue ornare quis.</p>
+		<div class="sticky">
+			(line 3) - Patiently waiting to sign a declaration and start a nation
+		</div>
 
-	<p>Integer accumsan interdum justo eu pretium. Aliquam maximus mi sit amet dapibus efficitur.</p>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, cumque? A, est perferendis explicabo odit possimus quisquam rem ad tempore ipsa, obcaecati ex culpa similique, aliquam corporis. Quis, nostrum expedita.</p>
 
-	<p>Sed condimentum lacus sit amet turpis aliquam varius nec a lacus. In facilisis convallis ante sit amet consequat. Aenean a lorem mollis, bibendum nibh nec, maximus orci. Nulla facilisi.</p>
+		<div class="sticky">
+			(line 4) - No sign of disagreement, not one grumble
+		</div>
+
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, cumque? A, est perferendis explicabo odit possimus quisquam rem ad tempore ipsa, obcaecati ex culpa similique, aliquam corporis. Quis, nostrum expedita.</p>
+
+		<div class="sticky">
+			(line 5) - The reality is messier and richer, kids
+		</div>
+
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, cumque? A, est perferendis explicabo odit possimus quisquam rem ad tempore ipsa, obcaecati ex culpa similique, aliquam corporis. Quis, nostrum expedita.</p>
+
+		<div class="sticky">
+			(line 6) - The reality is not a pretty picture, kids
+		</div>
+
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, cumque? A, est perferendis explicabo odit possimus quisquam rem ad tempore ipsa, obcaecati ex culpa similique, aliquam corporis. Quis, nostrum expedita.</p>
+
+		<div class="sticky">
+			(line 7) - Every cabinet meeting is like a full on rumble
+		</div>
+
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, cumque? A, est perferendis explicabo odit possimus quisquam rem ad tempore ipsa, obcaecati ex culpa similique, aliquam corporis. Quis, nostrum expedita.</p>
+
+		<div class="sticky">
+			(line 8) - What you're about to witness is no John Trumbull
+		</div>
+
+		<div class="container">
+	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla ad perferendis quod temporibus ipsa facilis dolor blanditiis fuga repudiandae quos. Obcaecati voluptatum dolor tenetur quam pariatur fugit ipsam perspiciatis culpa?</p>
+	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla ad perferendis quod temporibus ipsa facilis dolor blanditiis fuga repudiandae quos. Obcaecati voluptatum dolor tenetur quam pariatur fugit ipsam perspiciatis culpa?</p>
+	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla ad perferendis quod temporibus ipsa facilis dolor blanditiis fuga repudiandae quos. Obcaecati voluptatum dolor tenetur quam pariatur fugit ipsam perspiciatis culpa?</p>
+	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla ad perferendis quod temporibus ipsa facilis dolor blanditiis fuga repudiandae quos. Obcaecati voluptatum dolor tenetur quam pariatur fugit ipsam perspiciatis culpa?</p>
+	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla ad perferendis quod temporibus ipsa facilis dolor blanditiis fuga repudiandae quos. Obcaecati voluptatum dolor tenetur quam pariatur fugit ipsam perspiciatis culpa?</p>
+	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla ad perferendis quod temporibus ipsa facilis dolor blanditiis fuga repudiandae quos. Obcaecati voluptatum dolor tenetur quam pariatur fugit ipsam perspiciatis culpa?</p>
+	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla ad perferendis quod temporibus ipsa facilis dolor blanditiis fuga repudiandae quos. Obcaecati voluptatum dolor tenetur quam pariatur fugit ipsam perspiciatis culpa?</p>
+	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla ad perferendis quod temporibus ipsa facilis dolor blanditiis fuga repudiandae quos. Obcaecati voluptatum dolor tenetur quam pariatur fugit ipsam perspiciatis culpa?</p>
+	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla ad perferendis quod temporibus ipsa facilis dolor blanditiis fuga repudiandae quos. Obcaecati voluptatum dolor tenetur quam pariatur fugit ipsam perspiciatis culpa?</p>
+	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla ad perferendis quod temporibus ipsa facilis dolor blanditiis fuga repudiandae quos. Obcaecati voluptatum dolor tenetur quam pariatur fugit ipsam perspiciatis culpa?</p>
+	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla ad perferendis quod temporibus ipsa facilis dolor blanditiis fuga repudiandae quos. Obcaecati voluptatum dolor tenetur quam pariatur fugit ipsam perspiciatis culpa?</p>
+	</div>
+
+	</div>
 
 </body>
 </html>
