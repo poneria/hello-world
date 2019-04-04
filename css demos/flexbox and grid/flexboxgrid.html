@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<!--
+		Using "Redesigning a website using CSS GRid and Flexbox" by Dries Buytaert as a tutorial.
+		https://dri.es/redesigning-a-website-using-css-grid-and-flexbox
+	-->
+<style>
+	/* Creating a basic responsive header with Flexbox */
+	#header {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	@media all and (max-width: 900px) {
+		#header {
+			flex-direction: column;
+		}
+	}
+
+	/* Laying out articles with CSS Grid */
+	article {
+		display: grid;
+		grid-template-columns: 1fr 200px 10px minmax(320px, 640px) 10px 200px 1fr;
+			/*
+			7 columns:;
+				minmax(320px, 640px)
+					main content of page
+					can stretch from 320-640 px (responsive)
+			*/
+	}
+</style>
+</head>
+<body>
+	<!-- Creating a basic responsive header with Flexbox -->
+	<div id="header">
+		<div class="title">Site title</div>
+		<div class="navigation">Navigation</div>
+	</div>
+
+	<!-- Laying out articles with CSS Grid -->
+	<article>
+		<h1>Lorem ipsum dolor sit amet</h1>
+		<p class="description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		<figure class="right">
+		<img src="./image.jpg">
+		<figcaption>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</figcaption>
+		</figure>
+		<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+		<footer>
+		Some meta data
+		Some meta data
+		Some meta data
+		</footer>
+	</article>
+</body>
+</html>

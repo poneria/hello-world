@@ -23,6 +23,10 @@ The $bp, etc. are variables in SCSS (which is what I figured but wanted to resea
 - [The Complete Guide to SCSS/SASS](https://medium.freecodecamp.org/the-complete-guide-to-scss-sass-30053c266b23) by FreeCodeCamp, 21 Jan 2019
   - [Intro to SCSS for Sass Users](https://sass-lang.com/documentation/file.SCSS_FOR_SASS_USERS.html) by sass-lang.com, accessed 1 Apr 2019
 
+## Visual essays with scrollytelling
+- [Film or Digital?](https://pudding.cool/2018/08/filmordigital/) by Damar Aji Pramudita, The Pudding, Aug 2018
+- [Tracing the K-Pop Wave](https://datanibbl.es/tracing-kpop-wave/) by Damar Aji Pramudita, his own website, 2017?
+
 ## Scrollytelling with mainly CSS
 - [W3Schools](https://www.w3schools.com/howto/howto_css_parallax.asp)
 - [Easier scrollytelling with position sticky](https://pudding.cool/process/scrollytelling-sticky/) - The Pudding, June 2018
