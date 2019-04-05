@@ -1,5 +1,5 @@
 # Notes
-These are my notes as I teach myself about parallax scrolling in CSS for scrollytelling.
+These are my notes as I teach myself about **parallax scrolling** in CSS for scrollytelling.
 
 # Scrollytelling with position: sticky
 **Resource**: [Scrollytelling with position sticky - full images](https://codepen.io/enatario/pen/jKrJpB) by Elaina Natario -- full background image + not-full-width scrolling text + full-width text at the bottom
